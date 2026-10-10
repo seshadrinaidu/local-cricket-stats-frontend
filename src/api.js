@@ -1,5 +1,5 @@
 
-const API_URL = "http://localhost:8080/api/batting-records";
+const API_URL = "https://local-cricket-stats-backend.onrender.com/api/batting-records";
 
 async function readResponse(response) {
   const body = await response.text();
